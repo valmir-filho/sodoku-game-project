@@ -16,13 +16,13 @@
 
 - Create the Game File: Open a text editor (like VSCode, Sublime Text, or even Notepad);
   
-- Copy the Python code (minesweeper_game.py) into the editor;
+- Copy the Python code (sodoku_game.py) into the editor;
 
-- Save the file as minesweeper_game.py;
+- Save the file as sodoku_game.py;
 
-- Run the Game: Open your terminal (or Command Prompt) and navigate to the directory where you saved pong_game.py;
+- Run the Game: Open your terminal (or Command Prompt) and navigate to the directory where you saved sodoku_game.py;
 
-- Run the game with: python3 minesweeper_game.py.
+- Run the game with: python3 sodoku_game.py.
 
 ## Game Instructions:
 
