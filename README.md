@@ -4,7 +4,7 @@
 
 ## Content:
 
-- Minesweeper Project developed in Python.
+- Sodoku Game Project developed in Python.
 
 ## Instructions:
 
