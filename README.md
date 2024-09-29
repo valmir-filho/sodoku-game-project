@@ -1,6 +1,6 @@
 # Sodoku Game Project.
 
-![image](https://github.com/user-attachments/assets/fbf6ace9-821a-4998-aeac-0a79e21a2519">)
+
 
 ## Content:
 
