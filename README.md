@@ -26,18 +26,30 @@
 
 ## Game Instructions:
 
-- The goal of the game is to reveal all the cells on the grid without clicking on any mines. If you click on a cell containing a mine, the game is over;
+- Fill a 9x9 grid with numbers so that each column, each row, and each of the nine 3x3 subgrids (also called boxes) contains all the digits from 1 to 9 without repeating any numbers;
 
-- Left-click: Reveal a cell. If the revealed cell has no adjacent mines, it will display a number indicating how many mines are nearby (in the 8 surrounding cells). If there are no adjacent mines, it will automatically reveal surrounding cells until it reaches cells with numbers;
-  
-- Right-click: Flag a cell. If you suspect a cell contains a mine, right-click to place a flag. This is helpful to mark potential mines and avoid clicking on them by mistake;
+- The Sudoku grid consists of 9 rows, 9 columns, and 9 smaller 3x3 grids;
 
-- Game Over: If you click on a cell that contains a mine, the game will end, and all mines will be revealed. A pop-up will appear, asking if you want to play again or quit the game;
-  
-- Winning: You win the game if you successfully reveal all cells without mines. A congratulatory message will appear, and you will have the option to start a new game or exit;
+- Some cells will already be filled with numbers. Use these as clues to solve the puzzle;
 
-- Tips: Use numbers as clues: If you reveal a cell with a number, it tells you how many mines are adjacent to that cell. Use this information to figure out where the mines are likely located;
-  
-- Flagging: Right-click to place a flag where you think a mine is, helping you keep track of potential danger spots.
+- Each number (1-9) must appear exactly once in each row;
+ 
+- Each number must appear exactly once in each column;
+
+- Each number must appear exactly once in each 3x3 grid;
+
+- You can fill empty cells with numbers as long as they don’t violate the rules above;
+
+- Use logic and deduction to determine where each number belongs;
+
+- If you get stuck, you can use trial and error to test possibilities;
+
+- Focus on rows, columns, or boxes with the most filled cells to find possible numbers;
+
+- If a number can only fit in one cell in a row, column, or box, place it there;
+
+- If you're unsure, you can make small notes in cells for possible numbers;
+
+- You win by correctly filling in all the cells in the grid according to the rules.
 
 ### Used IDE: Visual Studio Code.
