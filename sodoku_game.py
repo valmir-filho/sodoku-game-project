@@ -1,6 +1,6 @@
-import tkinter as tk
 from tkinter import messagebox
 import random
+import tkinter as tk
 
 
 class Sudoku:
@@ -94,10 +94,8 @@ class SudokuGUI:
                 if self.sudoku.board[i][j] != 0:
                     cell.insert(0, str(self.sudoku.board[i][j]))
                     cell.config(state='readonly')
-
         solve_button = tk.Button(self.root, text="Solve", command=self.solve_sudoku)
         solve_button.grid(row=9, column=0, columnspan=4)
-
         restart_button = tk.Button(self.root, text="Restart", command=self.restart_game)
         restart_button.grid(row=9, column=4, columnspan=5)
 
@@ -122,7 +120,6 @@ class SudokuGUI:
                     self.cells[i][j].config(state='readonly')
                 else:
                     self.cells[i][j].config(state='normal')
-
 if __name__ == "__main__":
     root = tk.Tk()
     gui = SudokuGUI(root)
